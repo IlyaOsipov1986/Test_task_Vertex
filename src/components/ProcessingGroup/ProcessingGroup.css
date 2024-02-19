@@ -32,6 +32,16 @@
     flex-direction: column;
     gap: 8px;
 }
+.processing-group-form__label-error {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+.processing-group-form__error-message {
+    font-size: 16px;
+    color: red;
+}
 .processing-group-form__label {
     font-weight: 600;
     line-height: 110%;
@@ -45,7 +55,6 @@
     border: 0.5px solid lightgray;
     box-sizing: border-box;
     border-radius: 8px;
-    cursor: pointer;
 }
 .processing-group-form__select-value {
     font-size: 16px;
@@ -64,6 +73,7 @@
     height: 16px;
     object-fit: cover;
     margin: auto 12px auto 12px;
+    cursor: pointer;
 }
 .processing-group-form__options-container {
     display: flex;

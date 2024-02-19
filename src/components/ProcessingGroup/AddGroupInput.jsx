@@ -1,11 +1,12 @@
-import React from "react";
+import React,{ useEffect } from "react";
 
 const AddGroupInput = (props) => {
 
     const {
         activeFocus,
         nameGroup,
-        handlerInputNameGroup
+        handlerInputNameGroup,
+        checkKeyPress
     } = props;
 
     return (
@@ -16,6 +17,7 @@ const AddGroupInput = (props) => {
                 ref={activeFocus}
                 value={nameGroup}
                 onChange={(e) => handlerInputNameGroup(e)}
+                onKeyDown={checkKeyPress}
             />
         </>
     )
