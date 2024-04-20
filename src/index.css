@@ -1,0 +1,4 @@
+@import "./vendor/normalize.css";
+@import "./vendor/global.css";
+@import "./components/App/App.css";
+@import "./components/ProcessingGroup/ProcessingGroup.css";
